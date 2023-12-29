@@ -1,0 +1,76 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+a > h2 {
+  color: #66bfbf;
+  text-decoration: none;
+  transition: color 0.25s;
+}
+
+a > h2:hover {
+  color: #11999e;
+}
+
+.container {
+  width: 60%;
+  margin: 0 auto;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.column {
+  float: left;
+  width: 100%;
+  display: block;
+  margin-bottom: 20px;
+  padding: 0 10px;
+}
+
+.row {
+  margin: 20px 0;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 16px;
+  text-align: center;
+  background-color: #f1f1f1;
+}
+
+/* schimbarea marimii logo-ului pentru ecranele mai mici */
+@media screen and (max-width: 800px) {
+  img {
+    width: 128px;
+    height: 128px;
+  }
+}
+
+/* text principal folosit in descriere */
+.maintext {
+  font-size: 1.2em;
+}
+
+/* text secundar, pt ore */
+.subtext {
+  color: #777;
+  font-size: 0.9em;
+  font-style: italic;
+}

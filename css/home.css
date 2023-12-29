@@ -1,0 +1,161 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: "Merriweather", serif;
+  color: #40514e;
+}
+
+h1 {
+  margin: 50 auto 0 auto;
+  font-size: 5.625rem;
+  font-family: "Sacramento", cursive;
+  color: #66bfbf;
+  line-height: 2;
+}
+
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  border-color: grey;
+  border-width: 5px;
+  width: 7%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 2.5rem;
+  padding-bottom: 10px;
+  color: #66bfbf;
+  font-weight: normal;
+}
+
+h3 {
+  font-family: "Montserrat", sans-serif;
+  color: #11999e;
+}
+
+p {
+  line-height: 2;
+}
+
+@media only screen and (max-width: 900px) {
+  p {
+    font-size: large !important;
+  }
+  .bottom-cloud {
+    position: static !important;
+  }
+}
+
+.responsive-image {
+  max-width: 100%;
+  height: auto;
+}
+
+.top-container {
+  background-color: #eaf6f6;
+  position: relative;
+  padding-top: 100px;
+}
+
+.middle-container {
+  padding: 100px 0;
+}
+
+.pro {
+  text-decoration: underline;
+}
+
+.intro {
+  width: 30%;
+  margin: auto;
+  margin-bottom: 40px;
+}
+
+.top-cloud {
+  right: 500px;
+  top: 40px;
+  position: absolute;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 250px;
+  bottom: 375px;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+}
+
+.code-image {
+  margin-right: 30px;
+  float: left;
+  width: 25%;
+}
+
+.game-image {
+  margin-left: 30px;
+  float: right;
+  width: 25%;
+}
+
+.btn {
+  background: #66bfbf;
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: Comic Sans MS;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  transition: background 0.5s;
+}
+
+.btn:hover {
+  background: #11999e;
+  text-decoration: none;
+}
+
+.footer-link {
+  color: #11999e;
+  padding: 10px;
+  text-decoration: none;
+  transition: color 0.25s;
+}
+
+.footer-link:hover {
+  color: #eaf6f6;
+}
+
+.reveal {
+  position: relative;
+  transform: translateY(150px);
+  opacity: 0;
+  transition: 2s all ease;
+}
+.reveal.active {
+  transform: translateY(0);
+  opacity: 1;
+}
+
+.buttons-flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 50px;
+}
+
+.whole-body {
+  z-index: 2;
+}
+
+.buttons-container {
+  background-color: #eaf6f6;
+  margin-top: 0 !important;
+}
